@@ -10,8 +10,8 @@ st.caption("Projek analisis data dengan python oleh Adib HZ")
 
 st.subheader("Tren Penggunaan Layanan Sepeda Tiap Tahunnya Berdasarkan Musim")
 
-day_df = pd.read_csv("day_dataset.csv")
-hour_df = pd.read_csv("hour_dataset.csv")
+day_df = pd.read_csv("/dashboard/day_dataset.csv")
+hour_df = pd.read_csv("/dashboard/hour_dataset.csv")
 
 selected_year = st.selectbox("Pilih Tahun", day_df["yr"].unique())
 
